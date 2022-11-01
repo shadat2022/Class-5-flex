@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* common css start*/
+
+nav.navbar,ol,ul,li,a,p,h1,h2,h3,h4,h5,h6,span{
+    margin: 0;
+    padding: 0;
+}
+
+
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+
+/* var start */
+:root{
+    --primary-color:#06C167;
+    --common-color:#1D1D1F;
+}
+/* var end */
+/* navBar start */
+.navLogo {
+    color: #06C167;
+    font-size: 32px;
+    font-weight: 500;
+}
+.nav-item a{
+    color: #1D1D1F;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px !important;
+}
+.nav-item a:hover{
+    color: #06C167;
+    transition: .5s;
+}
+
+/* navBar end */
+
+/* banner start */
+#banner{
+    height: 636px;
+    margin-top: 90px;
+}
+.bnrLeft{
+    background-color: #F3FCF7;
+}
+.bnrLeft h2{
+    font-size: 75px;
+    font-weight: 600;
+    color: #1D1D1F;
+}
+.bnrLeft p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D1D1F;
+}
+.bnrRight{
+    position: relative;
+}
+.dotsImg img{
+    position: absolute;
+    bottom: 150px;
+    right: 0px;
+
+}
+.bttnBnr a{
+    background-color: #06C167;
+    color: #fff;
+    font: 16px;
+    font-weight: 400;
+    padding: 20px 40px;
+    line-height: 100px;
+}
+.bttnBnr a > img{
+    margin-left: 15px;
+}
+.bttnBnr{
+    margin-bottom: 150px;
+}
+.bnrIcn{
+    background-color: #fff;
+}
+.bnPosition1{
+    border-radius: 50px;
+    text-align: center;
+    height: 53px;
+    width: 230px;
+    line-height: 53px;
+    background-color: #fff;
+    position: relative;
+    bottom: 345px;
+    right: 90px;
+}
+.bnPosition2 h1,
+.bnPosition1 h1{
+    font-size: 15px;
+    font-weight: 500;
+}
+.bnPosition1 img{
+    margin-right: 5px;
+}
+.bnPosition2{
+    border-radius: 48px;
+    text-align: center;
+    height: 53px;
+    width: 230px;
+    line-height: 53px;
+    background-color: #fff;
+    position: relative;
+    bottom: 490px;
+    left: 280px;
+}
+/* banner end */
+/* free shiping start */
+.shiping h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+.shiping p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.shiping{
+    width: 280px ;
+    margin-top: 50px;
+}
+.shiping img{
+    margin-top: 20px;
+    background-color: #F0F1EC;
+    padding: 20px;
+    border-radius: 10px;
+}
+.shipSec{
+    height: 185px;
+}
+/* free shiping end */
+
+/* the more section start */
+.viggei i,
+.theMore i{
+    color: #06C167;
+    font-size: 26px;
+}
+.viggei h6,
+.theMore h6{
+    font-size: 15px;
+    font-weight: 500;
+}
+.viggei h2,
+.theMore h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin: 20px 0 35px;
+}
+/* the more section end */
+/*viggei section start */
+.solidProduct{
+    margin: 30px 0;
+}
+.solidProduct span{
+    color: #06C167;
+    font-size: 40px;
+    font-weight: 600;
+}
+.solidProduct p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* viggei section end */
+/* variety start */
+.allHeading p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.allHeading h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+.vCntn,
+.vCntn>img{
+    height: 275px;
+    width: 275px;
+}
+.varietyCntn{
+    border: 1px solid #06C167;
+}
+/* variety end */
+/* populer product start */
+.ab-itm-1{
+    width: 24%;
+    text-align: center;
+    border: 1px solid #06C167;
+    float: left;
+    margin-top: 50px;
+    height: 445px;
+    padding: 50px 0px;
+   
+}
+.bgbtn{
+    background-color: #fff !important;
+    color: #06C167 !important;
+    border: 1px solid #06C167;
+}
+/* populer product end */
+/* wantTry start */
+.wantTrySec{
+    margin: 100px 0;
+}
+.wantTry{
+    background-image: url(../img/Rectangle\ 8.jpg);
+    height: 460px;
+    text-align: center;
+    
+}
+.wantTry h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 110px;
+   
+}
+/* wantTry end */
+
+/* footer start */
+.fotr-text span,
+.fotr-text h3{
+    font-size: 10px;
+}
+.footeImg{
+    height: 70px;
+    margin-right: 10px;
+}
+.footer-01{
+    
+}
+.footer-01 p,
+.footer-01 a{
+    color: #1D1D1F;
+    font-size: 16px;
+    font-weight: 400;
+}
+#downFooter{
+    height: 55px;
+}
+#downFooter{
+    font-size: 14px;
+}
+.social-icn li span{
+    color: #1D1D1F;
+    padding: 10px;
+}
+.footerNav a,
+.footerNav h2{
+    color: #1D1D1F !important;
+}
+.footBtn{
+    background-color: #06C167;
+    color: #fff;
+    height: 50px;
+    width: 118px;
+    border: none !important;
+}
+.footMail{
+    height: 50px;
+    width: 205px;
+    background-color: #F0F1EC;
+}
+
+
+/* footer end */
